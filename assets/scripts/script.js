@@ -25,7 +25,7 @@ links.forEach(function(link){
 
      setTimeout(function(){
        //Nos redirecciona a la pagina anterior
-       location.href = "/"
+       location.href = "/Museos"
      },600 );
 
     return false;
