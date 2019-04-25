@@ -19,8 +19,16 @@ links.forEach(function(link){
     content.classList.add("fadeOutUp");
     content.classList.add("animated");
 
-    return false;
 
+     //setTimeout ejecuta instrucciones despues de cierto tiempo despues, UNA SOLA VEZ
+     //setInterval ejecuta instrucciones despues de cierto tiempo despues, CICLICO
+
+     setTimeout(function(){
+       //Nos redirecciona a la pagina anterior
+       location.href = "/Ejem"
+     },600 );
+
+    return false;
 
   });
 });
