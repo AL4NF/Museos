@@ -25,7 +25,7 @@ links.forEach(function(link){
 
      setTimeout(function(){
        //Nos redirecciona a la pagina anterior
-       location.href = "/Ejem"
+       location.href = "/"
      },600 );
 
     return false;
